@@ -2,5 +2,6 @@
 #NOW=$(date+"%m-%d-%Y")
 commit_message="script commit"
 git add .
-git commit -m $commit_message
+echo "will commit file now"
+git commit -m "is this the problem"
 git push
